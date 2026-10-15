@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "main";
+    src: url(main.ttf) format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #000 url("opening.jpg") center / cover no-repeat;
+    color: white;
+    font-family: main, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro {
+    background: rgba(0, 0, 0, 0.65);
+    padding: 35px;
+    width: 90%;
+    max-width: 500px;
+}
+
+p {
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+#continue {
+    display: none;
+}
