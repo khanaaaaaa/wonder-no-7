@@ -42,36 +42,22 @@ h1 {
 .scrapbook {
     position: relative;
     z-index: 1;
-    width: 100%;
+    width: 90%;
     max-width: 410px;
-    margin: auto;
+    margin: auto auto 40px;
+    padding: 20px;
     background: rgba(255, 248, 232, 0.96);
     border: 2px solid #f1c48d;
-};
-
-.character-profile {
-    background: #19151d;
-    color: #f3e5d0;
-    border: 2px solid #e87536;
-    margin: 35px auto;
-    max-width: 700px;
-    transform: rotate(-1deg);
-    position: relative;
 }
 
-.file-label {
-    color: #f18b49;
-    font-size: 12px;
-    letter-spacing: 3px;
-    border-bottom: 1px dashed #765044;
-}
-
-.hanako-image {
-    width: 180px;
+.character-info img {
+    width: 100%;
+    max-width: 180px;
     height: 220px;
     object-fit: cover;
+    object-position: center;
     display: block;
-    margin: 20px auto;
+    margin: 15px auto;
     border: 3px solid #e87536;
 }
 
@@ -88,19 +74,29 @@ h1 {
     color: #bba6b8;
 }
 
-
-.character-facts p {
-    margin: 8px 0;
-    border-bottom: 1px dotted #f18b49;
+.side-stickers {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
 }
 
-.character-facts strong {
-    color: #f18b49;
+.sticker {
+    position: absolute;
+    width: 110px;
+    height: auto;
 }
 
-.character-info h3 {
-    color: #e87536;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 15px;
+.sticker-left {
+    left: 20px;
+    top: 25%;
+    transform: rotate(-12deg);
+    zoom: 2;
+}
+
+.sticker-bottom.sticker-right {
+    top: 70%;
+    right: 35px;
+    transform: rotate(-10deg);
+    zoom: 2;
 }
