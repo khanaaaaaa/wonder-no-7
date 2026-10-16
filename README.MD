@@ -4,11 +4,11 @@ demo: https://khanaaaaaa.github.io/wonder-no-7/
 
 ## What It Is
 
-It's a website that's supposed to be narrated in this eerie megaphone, waring you and telling you about the seventh school wonders in TBHK. I wanted to do all the 7 but couldn't because of time constraints :( Will update soon though.
+It's a website that's supposed to be narrated in this eerie megaphone, waring you and a page about the seventh school wonder in TBHK (my short but poetic view).
 
 ## Why I Made It
 
-I was watching a TBHK edit on tikok, and remembered the green haired rumor spreader girl and her eerir voice. She spreads rumors about the ghosts so wanted to atleast add that part into the project :3 Also I love that jumpscare image lol
+I was watching a TBHK edit on tikok, and remembered the green haired rumor spreader girl and her eerie voice. She spreads rumors about the ghosts so wanted to atleast add that part into the project :3 Also I love that jumpscare image lol. I wanted to do all the 7 wonders but couldn't because of time constraints :( Will update soon though.
 
 ## How I Made It
 
