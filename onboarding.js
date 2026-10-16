@@ -21,5 +21,9 @@ voice.addEventListener("ended", () => {
 });
 
 enter.addEventListener("click", () => {
-    window.location.href = "index.html";
+    const jumpscare = document.getElementById("jumpscare");
+    const scary = document.getElementById("scary");
+    jumpscare.style.display = "block";
+    scary.play();
+    setTimeout(() => window.location.href = "main.html", 1000);
 });

@@ -50,3 +50,37 @@ button:hover {
 #continue {
     display: none;
 }
+
+#jumpscare {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+}
+
+#jumpscare img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#jumpscare {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#jumpscare img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#jumpscare.active {
+    display: flex;
+    animation: flash 0.08s steps(2) 3;
+}
