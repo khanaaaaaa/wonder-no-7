@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <audio sutoplay>
+        <audio id="bg-music" loop>
             <source src="main.mp3" type="audio/mpeg">
         </audio>
         <div class="side-stickers">
@@ -29,5 +29,11 @@
                 </p>
             </div>
         </main>
+        <script>
+            const music = document.getElementById("bg-music");
+            music.play().catch(() => {
+                document.addEventListener("click", () => music.play(), { once: true });
+            });
+        </script>
     </body>
 </html>
