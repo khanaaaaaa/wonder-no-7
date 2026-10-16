@@ -32,19 +32,3 @@ h1 {
     font-size: clamp(27px, 5vw, 48px);
     color: #ffb35c;
 }
-
-.subtitle {
-    margin: 5px 0 15px;
-    font-size: 13px;
-    letter-spacing: 2px;
-}
-
-.scrapbook {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    max-width: 410px;
-    margin: auto;
-    background: rgba(255, 248, 232, 0.96);
-    border: 2px solid #f1c48d;
-};

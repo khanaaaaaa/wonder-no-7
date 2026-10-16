@@ -19,3 +19,7 @@ voice.addEventListener("ended", () => {
     message.textContent = "Oh, do be careful";
     enter.style.display = "inline-block";
 });
+
+enter.addEventListener("click", () => {
+    window.location.href = "index.html";
+});
