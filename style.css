@@ -32,3 +32,75 @@ h1 {
     font-size: clamp(27px, 5vw, 48px);
     color: #ffb35c;
 }
+
+.subtitle {
+    margin: 5px 0 15px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.scrapbook {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 410px;
+    margin: auto;
+    background: rgba(255, 248, 232, 0.96);
+    border: 2px solid #f1c48d;
+};
+
+.character-profile {
+    background: #19151d;
+    color: #f3e5d0;
+    border: 2px solid #e87536;
+    margin: 35px auto;
+    max-width: 700px;
+    transform: rotate(-1deg);
+    position: relative;
+}
+
+.file-label {
+    color: #f18b49;
+    font-size: 12px;
+    letter-spacing: 3px;
+    border-bottom: 1px dashed #765044;
+}
+
+.hanako-image {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #e87536;
+}
+
+.character-info h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #ff9b54;
+    margin-bottom: 0;
+}
+
+.japanese-name {
+    text-align: center;
+    font-size: 13px;
+    color: #bba6b8;
+}
+
+
+.character-facts p {
+    margin: 8px 0;
+    border-bottom: 1px dotted #f18b49;
+}
+
+.character-facts strong {
+    color: #f18b49;
+}
+
+.character-info h3 {
+    color: #e87536;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
